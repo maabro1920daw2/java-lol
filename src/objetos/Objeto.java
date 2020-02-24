@@ -7,7 +7,7 @@ package objetos;
 
 import campeones.StatsCampeon;
 
-public class Objeto {
+public abstract class Objeto {
 
     protected StatsObjeto stats;
     protected String id, name, description, plaintext;

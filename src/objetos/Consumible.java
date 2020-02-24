@@ -29,4 +29,49 @@ public class Consumible extends Objeto {
                 + Arrays.toString(into) + ", tags=" + Arrays.toString(tags) + ", depth=" + depth + ", gold=" + gold
                 + "]";
     }
+
+    public int getStacks() {
+        return stacks;
+    }
+
+    public StatsObjeto getStats() {
+        return stats;
+    }
+
+    public String getId() {
+        return id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public String getPlaintext() {
+        return plaintext;
+    }
+
+    public String[] getFrom() {
+        return from;
+    }
+
+    public String[] getInto() {
+        return into;
+    }
+
+    public String[] getTags() {
+        return tags;
+    }
+
+    public int getDepth() {
+        return depth;
+    }
+
+    public Oro getGold() {
+        return gold;
+    }
+    
 }
