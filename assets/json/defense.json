@@ -1,0 +1,1803 @@
+[
+    {
+        "id":"1001",
+        "name": "Botas de velocidad",
+        "description": "<groupLimit>Limitado a 1 par de botas.</groupLimit><br><br><unique>Pasiva ÚNICA - Movimiento mejorado:</unique> +25 de velocidad de movimiento.",
+        
+        "plaintext": "Aumenta levemente la velocidad de movimiento.",
+        "into": [
+            "3006",
+            "3047",
+            "3020",
+            "3158",
+            "3111",
+            "3117",
+            "3009"
+        ],
+        
+        "gold": {
+            "base": 300,
+            "purchasable": true,
+            "total": 300,
+            "sell": 210
+        },
+        "tags": [
+            "Boots"
+        ],
+        
+        "stats": {
+            "FlatMovementSpeedMod": 25
+        }
+    },
+    {
+        "id":"1024",
+        "name": "Amuleto de las hadas",
+        "description": "<stats><mana>+25% regeneración de maná básica </mana></stats>",
+        
+        "plaintext": "Aumenta levemente la regeneración de maná.",
+        "into": [
+            "3028",
+            "3070",
+            "3073",
+            "3114"
+        ],
+        
+        "gold": {
+            "base": 125,
+            "purchasable": true,
+            "total": 125,
+            "sell": 88
+        },
+        "tags": [
+            "ManaRegen"
+        ],
+        
+        "stats": {}
+    },
+    {
+        "id":"1006",
+        "name": "Perla de rejuvenecimiento",
+        "description": "<stats>+50% regeneración de vida básica </stats>",
+        
+        "plaintext": "Aumenta levemente la regeneración de vida.",
+        "into": [
+            "3077",
+            "3801",
+            "3194"
+        ],
+        
+        "gold": {
+            "base": 150,
+            "purchasable": true,
+            "total": 150,
+            "sell": 105
+        },
+        "tags": [
+            "HealthRegen"
+        ],
+        
+        "stats": {}
+    },
+    {
+        "id":"1011",
+        "name": "Cinturón de gigante",
+        "description": "<stats>+380 vida</stats>",
+        
+        "plaintext": "Aumenta en gran medida la vida.",
+        "from": [
+            "1028"
+        ],
+        "into": [
+            "3083",
+            "3084",
+            "3022",
+            "3143",
+            "3742"
+        ],
+        
+        "gold": {
+            "base": 600,
+            "purchasable": true,
+            "total": 1000,
+            "sell": 700
+        },
+        "tags": [
+            "Health"
+        ],
+        
+        "stats": {
+            "FlatHPPoolMod": 380
+        },
+        "depth": 2
+    },
+    {
+        "id":"1028",
+        "name": "Cristal de rubí",
+        "description": "<stats>+150 vida</stats>",
+       
+        "plaintext": "Aumenta la vida.",
+        "into": [
+            "1011",
+            "3075",
+            "3211",
+            "3136",
+            "3068",
+            "3010",
+            "3801",
+            "3044",
+            "3052",
+            "3053",
+            "3067",
+            "3814",
+            "3116",
+            "3748",
+            "3751",
+            "3916"
+        ],
+        
+        "gold": {
+            "base": 400,
+            "purchasable": true,
+            "total": 400,
+            "sell": 280
+        },
+        "tags": [
+            "Health"
+        ],
+       
+        "stats": {
+            "FlatHPPoolMod": 150
+        }
+    },
+    {
+        "id":"1029",
+        "name": "Armadura de tela",
+        "description": "<stats>+15 armadura</stats>",
+        
+        "plaintext": "Aumenta levemente la armadura.",
+        "into": [
+            "3047",
+            "1031",
+            "3191",
+            "3024",
+            "3082",
+            "3076",
+            "3105"
+        ],
+        
+        "gold": {
+            "base": 300,
+            "purchasable": true,
+            "total": 300,
+            "sell": 210
+        },
+        "tags": [
+            "Armor"
+        ],
+       
+        "stats": {
+            "FlatArmorMod": 15
+        }
+    },
+    {
+        "id":"1031",
+        "name": "Chaleco de cadenas",
+        "description": "<stats>+40 armadura</stats>",
+        
+        "plaintext": "Aumenta en gran medida la armadura.",
+        "from": [
+            "1029"
+        ],
+        "into": [
+            "3068",
+            "3109",
+            "3026",
+            "3193",
+            "3742"
+        ],
+        
+        "gold": {
+            "base": 500,
+            "purchasable": true,
+            "total": 800,
+            "sell": 560
+        },
+        "tags": [
+            "Armor"
+        ],
+        
+        "stats": {
+            "FlatArmorMod": 40
+        },
+        "depth": 2
+    },
+    {
+        "id":"1033",
+        "name": "Manto de anulación de magia",
+        "description": "<stats>+25 resistencia mágica</stats>",
+        
+        "plaintext": "Aumenta levemente la resistencia mágica.",
+        "into": [
+            "3111",
+            "3211",
+            "1057",
+            "3028",
+            "3140",
+            "3155",
+            "3105",
+            "3190",
+            "3102",
+            "3194"
+        ],
+        
+        "gold": {
+            "base": 450,
+            "purchasable": true,
+            "total": 450,
+            "sell": 315
+        },
+        "tags": [
+            "SpellBlock"
+        ],
+       
+        "stats": {
+            "FlatSpellBlockMod": 25
+        }
+    },
+    {
+        "id":"1054",
+        "name": "Escudo de Doran",
+        "description": "<stats>+80 de vida</stats><br><br><passive>Pasiva: </passive>Restaura 6 de vida cada 5 s.<br><passive>Pasiva: </passive>Los ataques básicos infligen 5 de daño físico adicional contra súbditos al golpear.<br><unique>Pasiva ÚNICA:</unique> Regeneras hasta 40 de vida adicional a lo largo de 8 s después de recibir daño de un campeón enemigo, según el porcentaje de vida que le falte (66% de efectividad para activaciones de campeones a distancia, daño en área o daño periódico).",
+       
+        "plaintext": "Buen objeto defensivo inicial.",
+        
+        "gold": {
+            "base": 450,
+            "purchasable": true,
+            "total": 450,
+            "sell": 180
+        },
+        "tags": [
+            "Health",
+            "HealthRegen",
+            "Lane"
+        ],
+        
+        "stats": {
+            "FlatHPPoolMod": 80,
+            "FlatHPRegenMod": 1.2
+        }
+        
+    },
+    {
+        "id":"1057",
+        "name": "Capa negatrón",
+        "description": "<stats>+40 resistencia mágica</stats>",
+        
+        "plaintext": "Aumenta moderadamente la resistencia mágica.",
+        "from": [
+            "1033"
+        ],
+        "into": [
+            "3091",
+            "3193",
+            "3001"
+        ],
+        
+        "gold": {
+            "base": 270,
+            "purchasable": true,
+            "total": 720,
+            "sell": 504
+        },
+        "tags": [
+            "SpellBlock"
+        ],
+        
+        "stats": {
+            "FlatSpellBlockMod": 40
+        },
+        "depth": 2
+    },
+    {
+        "id":"1401",
+        "name": "Encantamiento: Mole de ceniza",
+        "description": "<stats>+300 de vida<br>+15% de vida adicional</stats><br><br><unique>Pasiva ÚNICA - Inmolar:</unique> En combate, inflige 11 (+1 por nivel del campeón) de daño mágico por segundo a los enemigos cercanos. Inflige un 300% de daño adicional a súbditos y monstruos.<br><br><groupLimit>Limitado a 1 objeto de ganancia de oro o de jungla.</groupLimit>",
+        
+        "plaintext": "Otorga vida y Aura de Inmolar.",
+        "from": [
+            "3751",
+            "3706"
+        ],
+        "hideFromAll": true,
+       
+        "gold": {
+            "base": 600,
+            "purchasable": true,
+            "total": 2500,
+            "sell": 1750
+        },
+        "tags": [],
+        
+        "stats": {
+            "FlatHPPoolMod": 300
+        },
+        
+        "depth": 3
+    },
+    {
+        "id":"1413",
+        "name": "Encantamiento: Mole de ceniza",
+        "description": "<stats>+300 de vida<br>+15% de vida adicional</stats><br><br><unique>Pasiva ÚNICA - Inmolar:</unique> En combate, inflige 11 (+1 por nivel del campeón) de daño mágico por segundo a los enemigos cercanos. Inflige un 300% de daño adicional a súbditos y monstruos.<br><br><groupLimit>Limitado a 1 objeto de ganancia de oro o de jungla.</groupLimit>",
+       
+        "plaintext": "Otorga vida y Aura de Inmolar.",
+        "from": [
+            "3751",
+            "3715"
+        ],
+        "hideFromAll": true,
+       
+        "gold": {
+            "base": 600,
+            "purchasable": true,
+            "total": 2500,
+            "sell": 1750
+        },
+        "tags": [],
+       
+        "stats": {
+            "FlatHPPoolMod": 300
+        },
+        
+        "depth": 3
+    },
+    {
+        "id":"2051",
+        "name": "Cuerno del guardián",
+        "description": "<stats>+150 de vida</stats><br><br><passive>Pasiva: </passive>Restaura 20 de vida cada 5 s.<br><unique>Pasiva ÚNICA:</unique> Bloquea 12 de daño de ataques y hechizos de campeones (25% de efectividad contra habilidades de daño prolongado).<br><br><groupLimit>Limitado a 1 objeto de guardián.</groupLimit>",
+        
+        "plaintext": "Buen objeto inicial para tanques.",
+        
+        "gold": {
+            "base": 950,
+            "purchasable": true,
+            "total": 950,
+            "sell": 380
+        },
+        "tags": [
+            "Health",
+            "HealthRegen",
+            "Lane"
+        ],
+        
+        "stats": {
+            "FlatHPPoolMod": 150,
+            "FlatHPRegenMod": 4
+        }
+     
+    },
+    {
+        "id":"2065",
+        "name": "Ensueño de Shurelya",
+        "description": "<stats>+300 de vida<br>+10% de reducción de enfriamiento<br><mana>+100% de regeneración de maná básica </mana><br>+100% de regeneración de vida básica <br></stats><br><unique>Pasiva ÚNICA:</unique> +10% de curación y poder de escudo.<br><active>Activa ÚNICA:</active> Otorga +40% de velocidad de movimiento a tus aliados cercanos y a ti durante 3 s (90 s de enfriamiento).",
+     
+        "plaintext": "Puede activarse para acelerar a los aliados cercanos.",
+        "from": [
+            "3114",
+            "3801"
+        ],
+        
+        "gold": {
+            "base": 600,
+            "purchasable": true,
+            "total": 2050,
+            "sell": 1435
+        },
+        "tags": [
+            "Health",
+            "HealthRegen",
+            "ManaRegen",
+            "Active",
+            "CooldownReduction",
+            "NonbootsMovement"
+        ],
+        
+        "stats": {
+            "FlatHPPoolMod": 300
+        },
+        
+        "depth": 3
+    },
+    {
+        "id":"2420",
+        "name": "Cronómetro",
+        "description": "<active>Activa ÚNICA - Estasis:</active> El campeón será invulnerable e inalcanzable durante 2.5 s, pero tampoco podrá moverse, atacar, lanzar hechizos ni usar objetos durante ese tiempo (un solo uso).",
+        
+        "plaintext": "Puede activarse para hacerte invencible, aunque no podrás realizar acciones.",
+        "into": [
+            "3157",
+            "3026",
+            "3193"
+        ],
+        
+        "gold": {
+            "base": 600,
+            "purchasable": true,
+            "total": 600,
+            "sell": 240
+        },
+        "tags": [
+            "Active"
+        ],
+        
+        "stats": {}
+    },
+    {
+        "id":"2422",
+        "name": "Botas ligeramente mágicas",
+        "description": "<groupLimit>Limitado a 1 par de botas.</groupLimit><br><br><unique>Pasiva ÚNICA - Movimiento mejorado:</unique> +25 de velocidad de movimiento.<br><br><unique>Pasiva ÚNICA:</unique> +10 de velocidad de movimiento.<br><br>Las botas que se fabrican a partir de las Botas ligeramente mágicas retienen el +10 de velocidad de movimiento.",
+        
+        "plaintext": "Aumenta levemente la velocidad de movimiento.",
+        "inStore": false,
+        "into": [
+            "3006",
+            "3047",
+            "3020",
+            "3158",
+            "3111",
+            "3117",
+            "3009"
+        ],
+        
+        "gold": {
+            "base": 300,
+            "purchasable": false,
+            "total": 300,
+            "sell": 210
+        },
+        "tags": [
+            "Boots"
+        ],
+        
+        "stats": {
+            "FlatMovementSpeedMod": 25
+        }
+    },
+    {
+        "id":"3001",
+        "name": "Máscara abisal",
+        "description": "<stats>+350 de vida<br><mana>+300 de maná</mana><br>+55 de resistencia mágica<br>+10% de reducción de enfriamiento</stats><br><br><unique>Pasiva ÚNICA - Eternidad:</unique> Se recupera un 15% del daño infligido por campeones en forma de maná. Al gastar maná, se recupera un 20% del coste como vida, hasta un máximo de 25 por lanzamiento.<br><aura>Aura ÚNICA:</aura> Los campeones enemigos cercanos reciben un 15% más de daño mágico.",
+        
+        "plaintext": "Los enemigos cercanos reciben más daño mágico.",
+        "from": [
+            "3010",
+            "1057"
+        ],
+        "into": [
+            "3379"
+        ],
+        
+        "gold": {
+            "base": 1180,
+            "purchasable": true,
+            "total": 3000,
+            "sell": 2100
+        },
+        "tags": [
+            "Health",
+            "SpellBlock",
+            "HealthRegen",
+            "Mana",
+            "ManaRegen",
+            "Aura",
+            "CooldownReduction",
+            "MagicPenetration"
+        ],
+       
+        "stats": {
+            "FlatHPPoolMod": 350,
+            "FlatSpellBlockMod": 55,
+            "FlatMPPoolMod": 300
+        },
+     
+        "depth": 3
+    },
+    {
+        "id":"3006",
+        "name": "Grebas de berserker",
+        "description": "<groupLimit>Limitado a 1 par de botas.</groupLimit><br><br><stats> +35% de velocidad de ataque</stats><br><br><unique>Pasiva ÚNICA - Movimiento mejorado:</unique> +45 de velocidad de movimiento.",
+        
+        "plaintext": "Mejora la velocidad de movimiento y la velocidad de ataque.",
+        "from": [
+            "1001",
+            "1042"
+        ],
+        
+        "gold": {
+            "base": 500,
+            "purchasable": true,
+            "total": 1100,
+            "sell": 770
+        },
+        "tags": [
+            "AttackSpeed",
+            "Boots"
+        ],
+       
+        "stats": {
+            "FlatMovementSpeedMod": 45,
+            "PercentAttackSpeedMod": 0.35
+        },
+        "depth": 2
+    },
+    {
+        "id":"3009",
+        "name": "Botas de rapidez",
+        "description": "<groupLimit>Limitado a 1 par de botas.</groupLimit><br><br><unique>Pasiva ÚNICA - Movimiento mejorado:</unique> +55 de velocidad de movimiento<br><unique>Pasiva ÚNICA - Resistencia a la ralentización:</unique> Los efectos de ralentización del movimiento se reducen un 25%.",
+     
+        "plaintext": "Mejora la velocidad de movimiento y reduce el efecto de las ralentizaciones.",
+        "from": [
+            "1001"
+        ],
+       
+        "gold": {
+            "base": 600,
+            "purchasable": true,
+            "total": 900,
+            "sell": 630
+        },
+        "tags": [
+            "Boots"
+        ],
+        
+        "stats": {
+            "FlatMovementSpeedMod": 55
+        },
+        
+        "depth": 2
+    },
+    {
+        "id":"3010",
+        "name": "Catalizador de eones",
+        "description": "<stats>+225 de vida<br><mana>+300 de maná</mana></stats><br><br><unique>Pasiva ÚNICA, Eternidad:</unique> Se obtiene como maná un 15% del daño sufrido de campeones. <br><br>Al gastar maná se recupera un 20% del coste como vida, hasta un máximo de 15 por lanzamiento. <br><br><rules>(Los hechizos de activación curan hasta un máximo de 15 cada s).</rules>",
+       
+        "plaintext": "Gasta maná para recuperar vida.",
+        "from": [
+            "1028",
+            "1027"
+        ],
+        "into": [
+            "3027",
+            "3029",
+            "3001"
+        ],
+       
+        "gold": {
+            "base": 350,
+            "purchasable": true,
+            "total": 1100,
+            "sell": 770
+        },
+        "tags": [
+            "Health",
+            "HealthRegen",
+            "Mana",
+            "ManaRegen"
+        ],
+      
+        "stats": {
+            "FlatHPPoolMod": 225,
+            "FlatMPPoolMod": 300
+        },
+      
+        "depth": 2
+    },
+    {
+        "id":"3022",
+        "name": "Mazo helado",
+        "description": "<stats>+700 vida<br>+30 daño de ataque</stats><br><br><unique>Pasiva ÚNICA, Gélido:</unique> Los ataques básicos ralentizan la velocidad de movimiento del objetivo durante 1.5 s al impactar (40% de ralentización en los ataques cuerpo a cuerpo, 20% de ralentización en los ataques a distancia).",
+        
+        "plaintext": "Los ataques básicos ralentizan a los enemigos.",
+        "from": [
+            "3052",
+            "1011"
+        ],
+        
+        "gold": {
+            "base": 900,
+            "purchasable": true,
+            "total": 3100,
+            "sell": 2170
+        },
+        "tags": [
+            "Damage",
+            "Health",
+            "OnHit",
+            "Slow"
+        ],
+       
+        "stats": {
+            "FlatPhysicalDamageMod": 30,
+            "FlatHPPoolMod": 700
+        },
+       
+        "depth": 3
+    },
+    {
+        "id":"3024",
+        "name": "Sudario glacial",
+        "description": "<stats>+20 armadura<br><mana>+250 maná</mana></stats><br><br><unique>Pasiva ÚNICA:</unique> +10% reducción de enfriamiento",
+        
+        "plaintext": "Aumenta la armadura y la reducción de enfriamiento.",
+        "from": [
+            "1027",
+            "1029"
+        ],
+        "into": [
+            "3110",
+            "3025",
+            "3050",
+            "3800"
+        ],
+       
+        "gold": {
+            "base": 250,
+            "purchasable": true,
+            "total": 900,
+            "sell": 630
+        },
+        "tags": [
+            "Armor",
+            "CooldownReduction",
+            "Mana"
+        ],
+      
+        "stats": {
+            "FlatMPPoolMod": 250,
+            "FlatArmorMod": 20
+        },
+        
+        "depth": 2
+    },
+    {
+        "id":"3025",
+        "name": "Guantelete de hielo",
+        "description": "<stats>+65 armadura<br>+20% reducción de enfriamiento<br><mana>+500 maná</mana></stats><br><br><unique>Pasiva ÚNICA, Hoja Encantada:</unique> Tras usar una habilidad, el siguiente ataque básico inflige daño físico adicional equivalente al 100% del daño de ataque básico a los enemigos que estén cerca del objetivo, y crea durante 2 s un campo helado que reduce un 30% la velocidad de movimiento de los rivales (1.5 s de enfriamiento).<br><br>El tamaño de la zona aumenta según la armadura adicional.",
+       
+        "plaintext": "Los ataques básicos crean un campo de ralentización tras lanzar un hechizo.",
+        "from": [
+            "3057",
+            "3024"
+        ],
+        "into": [
+            "3387"
+        ],
+        
+        "gold": {
+            "base": 750,
+            "purchasable": true,
+            "total": 2700,
+            "sell": 1890
+        },
+        "tags": [
+            "Armor",
+            "Mana",
+            "CooldownReduction",
+            "Slow"
+        ],
+        
+        "stats": {
+            "FlatMPPoolMod": 500,
+            "FlatArmorMod": 65
+        },
+        
+        "depth": 3
+    },
+    {
+        "id":"3026",
+        "name": "Ángel de la guarda",
+        "description": "<stats>+45 de daño de ataque<br>+40 de armadura</stats><br><br><unique>Pasiva ÚNICA:</unique> Tras sufrir un daño letal, restaura un 50% de la vida básica y un 30% del maná máximo tras 4 s de inmovilidad (300 s de enfriamiento).",
+        
+        "plaintext": "Revive periódicamente al campeón tras la muerte.",
+        "from": [
+            "1038",
+            "1031",
+            "2420"
+        ],
+        
+        "gold": {
+            "base": 100,
+            "purchasable": true,
+            "total": 2800,
+            "sell": 1120
+        },
+        "tags": [
+            "Armor",
+            "Damage"
+        ],
+        
+        "stats": {
+            "FlatPhysicalDamageMod": 45,
+            "FlatArmorMod": 40
+        },
+        
+        "depth": 3
+    },
+    {
+        "id":"3028",
+        "name": "Cáliz de armonía",
+        "description": "<stats>+30 de resistencia mágica<br><mana>+50% de regeneración de maná básica </mana></stats><br><br><unique>Pasiva ÚNICA - Armonía:</unique> Otorga un porcentaje adicional de regeneración de vida básica equivalente al porcentaje adicional de regeneración de maná básica.",
+        
+        "plaintext": "Aumenta la regeneración de vida y de maná.",
+        "from": [
+            "1004",
+            "1033",
+            "1004"
+        ],
+        "into": [
+            "3174",
+            "3222"
+        ],
+       
+        "gold": {
+            "base": 100,
+            "purchasable": true,
+            "total": 800,
+            "sell": 560
+        },
+        "tags": [
+            "SpellBlock",
+            "HealthRegen",
+            "ManaRegen"
+        ],
+        
+        "stats": {
+            "FlatSpellBlockMod": 30
+        },
+       
+        "depth": 2
+    },
+    {
+        "id":"3044",
+        "name": "Bacteriófago",
+        "description": "<stats>+200 vida<br>+15 daño de ataque</stats><br><br><unique>Pasiva ÚNICA, Rabia:</unique> Los ataques básicos otorgan 20 de velocidad de movimiento durante 2 s. Los asesinatos otorgan 60. Esta velocidad de movimiento se reduce a la mitad para campeones a distancia.",
+        
+        "plaintext": "Los ataques y asesinatos otorgan una pequeña mejora de velocidad.",
+        "from": [
+            "1028",
+            "1036"
+        ],
+        "into": [
+            "3078",
+            "3071"
+        ],
+        
+        "gold": {
+            "base": 500,
+            "purchasable": true,
+            "total": 1250,
+            "sell": 875
+        },
+        "tags": [
+            "Damage",
+            "Health",
+            "NonbootsMovement",
+            "OnHit"
+        ],
+        
+        "stats": {
+            "FlatPhysicalDamageMod": 15,
+            "FlatHPPoolMod": 200
+        },
+        
+        "depth": 2
+    },
+    {
+        "id":"3047",
+        "name": "Tabi de ninja",
+        "description": "<groupLimit>Limitado a 1 par de botas.</groupLimit><br><br><stats>+20 de armadura</stats><br><br><unique>Pasiva ÚNICA:</unique> Bloquea un 12% del daño de los ataques básicos.<br><unique>Pasiva ÚNICA - Movimiento mejorado:</unique> +45 de velocidad de movimiento.",
+        
+        "plaintext": "Mejora la velocidad de movimiento y reduce el daño de los ataques básicos recibidos.",
+        "from": [
+            "1001",
+            "1029"
+        ],
+     
+        "gold": {
+            "base": 500,
+            "purchasable": true,
+            "total": 1100,
+            "sell": 770
+        },
+        "tags": [
+            "Armor",
+            "Boots"
+        ],
+       
+        "stats": {
+            "FlatMovementSpeedMod": 45,
+            "FlatArmorMod": 20
+        },
+        
+        "depth": 2
+    },
+    {
+        "id":"3050",
+        "name": "Convergencia de Zeke",
+        "description": "<stats>+60 de armadura<br>+30 de resistencia mágica<br><mana>+250 de maná</mana><br>+10% de reducción de enfriamiento</stats><br><mainText><active>Activa ÚNICA - Conducto:</active> Te vinculas a un aliado sin un Conducto existente.<br><unique>Pasiva ÚNICA:</unique> Usar tu definitiva cerca de tu aliado invoca una tormenta helada a tu alrededor y prende los ataques básicos de tu aliado durante 10 s. Los enemigos que se encuentren dentro de tu tormenta helada se ven ralentizados un 20%. Además, los ataques de tu aliado queman a sus objetivos con un 30% de daño mágico adicional durante 2 s (45 s de enfriamiento).<br><br><unlockedPassive>Pacto de fuego escarchado:</unlockedPassive> Tu tormenta helada se desata cuando ralentiza a un enemigo con quemaduras, lo que inflige 40 de daño mágico por segundo y ralentiza un 40% en su lugar durante 3 s.</mainText><br><br><rules>(Los campeones solo pueden estar vinculados por una Convergencia de Zeke a la vez).</rules>",
+        
+        "plaintext": "Os proporciona bonificaciones a ti y a tus aliados al lanzar la definitiva.",
+        "from": [
+            "3105",
+            "3024"
+        ],
+        
+        "gold": {
+            "base": 250,
+            "purchasable": true,
+            "total": 2250,
+            "sell": 1575
+        },
+        "tags": [
+            "SpellBlock",
+            "Armor",
+            "Mana",
+            "Aura",
+            "Active",
+            "CooldownReduction"
+        ],
+        
+        "stats": {
+            "FlatSpellBlockMod": 30,
+            "FlatMPPoolMod": 250,
+            "FlatArmorMod": 60
+        },
+        
+        "depth": 3
+    },
+    {
+        "id":"3052",
+        "name": "Puño de Jaurim",
+        "description": "<stats>+15 daño de ataque<br>+200 vida</stats><br><br><unique>Pasiva ÚNICA:</unique> Asesinar a una unidad otorga 5 de vida máxima. Se puede acumular hasta 20 veces.",
+        
+        "plaintext": "Daño de ataque y acumulaciones de vida al asesinar a una unidad.",
+        "from": [
+            "1036",
+            "1028"
+        ],
+        "into": [
+            "3022",
+            "3053",
+            "3748"
+        ],
+        
+        "gold": {
+            "base": 450,
+            "purchasable": true,
+            "total": 1200,
+            "sell": 840
+        },
+        "tags": [
+            "Health",
+            "Damage"
+        ],
+       
+        "stats": {
+            "FlatPhysicalDamageMod": 15,
+            "FlatHPPoolMod": 200
+        },
+       
+        "depth": 2
+    },
+    {
+        "id":"3053",
+        "name": "Calibrador de Sterak",
+        "description": "<stats>+450 de vida</stats><br><br><unique>Pasiva ÚNICA - Fuerza titánica:</unique> Obtienes un 50% del daño de ataque básico como daño de ataque adicional. <br><unique>Pasiva ÚNICA - Salvavidas:</unique> Al recibir de 400 a 1800 de daño (según el nivel) en un margen de 5 s, obtienes un escudo equivalente a un 75% de tu vida adicional. Tras 0.75 s, el escudo se va reduciendo a lo largo de 3 s (60 s de enfriamiento).<br><br><unlockedPassive>Furia de Sterak:</unlockedPassive> Cuando <i>Salvavidas</i> se activa, tu tamaño y fuerza aumentan y obtienes +30% de tenacidad durante 8 s.",
+        
+        "plaintext": "Protege frente a grandes descargas de daño.",
+        "from": [
+            "3052",
+            "1037",
+            "1028"
+        ],
+       
+        "gold": {
+            "base": 725,
+            "purchasable": true,
+            "total": 3200,
+            "sell": 2240
+        },
+        "tags": [
+            "Health",
+            "Damage"
+        ],
+        
+        "stats": {
+            "FlatHPPoolMod": 450
+        },
+        
+        "depth": 3
+    },
+    {
+        "id":"3057",
+        "name": "Brillo",
+        "description": "<stats><mana>+250 maná</mana><br>+10% reducción de enfriamiento</stats><br><br><unique>Pasiva ÚNICA, Hoja Encantada:</unique> Tras usar una habilidad, el siguiente ataque básico inflige al impactar daño físico adicional igual al 100% del daño de ataque básico (1.5 s de enfriamiento).",
+        
+        "plaintext": "Otorga una bonificación al siguiente ataque tras lanzar un hechizo.",
+        "from": [
+            "1027"
+        ],
+        "into": [
+            "3078",
+            "3100",
+            "3025"
+        ],
+        
+        "gold": {
+            "base": 700,
+            "purchasable": true,
+            "total": 1050,
+            "sell": 735
+        },
+        "tags": [
+            "Mana",
+            "CooldownReduction"
+        ],
+        
+        "stats": {
+            "FlatMPPoolMod": 250
+        },
+       
+        "depth": 2
+    },
+    {
+        "id":"3065",
+        "name": "Rostro espiritual",
+        "description": "<stats>+450 vida<br>+55 de resistencia mágica<br>+100% de regeneración de vida básica <br>+10% de reducción de enfriamiento</stats><br><br><unique> Pasiva ÚNICA:</unique> Aumenta un 30% toda la curación recibida.",
+        
+        "plaintext": "Aumenta la vida y los efectos de curación.",
+        "from": [
+            "3211",
+            "3067"
+        ],
+        
+        "gold": {
+            "base": 800,
+            "purchasable": true,
+            "total": 2800,
+            "sell": 1960
+        },
+        "tags": [
+            "CooldownReduction",
+            "Health",
+            "HealthRegen",
+            "SpellBlock"
+        ],
+        
+        "stats": {
+            "FlatHPPoolMod": 450,
+            "FlatSpellBlockMod": 55
+        },
+       
+        "depth": 3
+    },
+    {
+        "id":"3067",
+        "name": "Gema avivadora",
+        "description": "<stats>+200 de vida </stats><br><br><unique>Pasiva ÚNICA:</unique> +10% de reducción de enfriamiento",
+       
+        "plaintext": "Aumenta la vida y la reducción de enfriamiento.",
+        "from": [
+            "1028"
+        ],
+        "into": [
+            "3065",
+            "3071",
+            "3109",
+            "3083",
+            "3152",
+            "3161"
+        ],
+        
+        "gold": {
+            "base": 400,
+            "purchasable": true,
+            "total": 800,
+            "sell": 560
+        },
+        "tags": [
+            "CooldownReduction",
+            "Health"
+        ],
+        
+        "stats": {
+            "FlatHPPoolMod": 200
+        },
+        
+        "depth": 2
+    },
+    {
+        "id":"3068",
+        "name": "Capa de fuego solar",
+        "description": "<stats>+425 vida<br>+60 armadura </stats><br><br><unique>Pasiva ÚNICA - Inmolar:</unique> Inflige 25 (+1 por nivel del campeón) de daño mágico cada segundo a los enemigos cercanos. Inflige un 50% de daño adicional a súbditos y monstruos.",
+        
+        "plaintext": "Causa daño constante a los enemigos cercanos.",
+        "from": [
+            "1031",
+            "1028",
+            "3751"
+        ],
+        "into": [
+            "3373"
+        ],
+        
+        "gold": {
+            "base": 650,
+            "purchasable": true,
+            "total": 2750,
+            "sell": 1925
+        },
+        "tags": [
+            "Armor",
+            "Health"
+        ],
+       
+        "stats": {
+            "FlatHPPoolMod": 425,
+            "FlatArmorMod": 60
+        },
+        
+        "depth": 3
+    },
+    {
+        "id": "3075",
+        "name": "Malla de espinas",
+        "description": "<stats>+250 de vida<br>+80 de armadura</stats><br><br><unique>Pasiva ÚNICA - Espinas:</unique> Al recibir un ataque básico, devuelves el daño mágico equivalente al 10% de tu armadura adicional más 25 e infliges <a href='GrievousWounds'>Heridas graves</a> al atacante durante 3 s.<br><unique>Pasiva ÚNICA - Acero frío:</unique> Cuando recibes ataques básicos, reduces un 15% la velocidad de ataque del atacante durante 1 s.",
+        
+        "plaintext": "Devuelve el daño sufrido de ataques básicos como daño mágico.",
+        "from": [
+            "3076",
+            "1028",
+            "3082"
+        ],
+        
+        "gold": {
+            "base": 500,
+            "purchasable": true,
+            "total": 2900,
+            "sell": 2030
+        },
+        "tags": [
+            "Health",
+            "Armor",
+            "Slow"
+        ],
+        
+        "stats": {
+            "FlatHPPoolMod": 250,
+            "FlatArmorMod": 80
+        },
+      
+        "depth": 3
+    },
+    {
+        "id":"3076",
+        "name": "Chaleco de zarzas",
+        "description": "<stats>+35 de armadura</stats><br><br><unique>Pasiva ÚNICA - Espinas:</unique> Al recibir un ataque básico, devuelves el daño mágico equivalente a 3 más un 10% de tu armadura adicional, e infliges <a href='GrievousWounds'>Heridas graves</a> al atacante durante 3 s.",
+       
+        "plaintext": "Evita que los enemigos usen Robo de vida contra ti.",
+        "from": [
+            "1029",
+            "1029"
+        ],
+        "into": [
+            "3075"
+        ],
+      
+        "gold": {
+            "base": 400,
+            "purchasable": true,
+            "total": 1000,
+            "sell": 700
+        },
+        "tags": [
+            "Armor"
+        ],
+        
+        "stats": {
+            "FlatArmorMod": 35
+        },
+      
+        "depth": 2
+    },
+    {
+        "id":"3082",
+        "name": "Malla del guardián",
+        "description": "<stats>+40 armadura</stats><br><br><unique>Pasiva ÚNICA , Acero frío:</unique> Si te alcanza un ataque básico, reduces un 15% la velocidad de ataque del atacante durante 1 s.",
+        
+        "plaintext": "Reduce la velocidad de ataque de los campeones enemigos al recibir ataques básicos.",
+        "from": [
+            "1029",
+            "1029"
+        ],
+        "into": [
+            "3110",
+            "3143",
+            "3075"
+        ],
+        
+        "gold": {
+            "base": 400,
+            "purchasable": true,
+            "total": 1000,
+            "sell": 700
+        },
+        "tags": [
+            "Armor",
+            "Slow"
+        ],
+        
+        "stats": {
+            "FlatArmorMod": 40
+        },
+        
+        "depth": 2
+    },
+    {
+        "id":"3083",
+        "name": "Armadura de Warmog",
+        "description": "<stats>+800 de vida<br>+200% de regeneración de vida básica </stats><br><br><unique>Pasiva ÚNICA:</unique> +10% de reducción de enfriamiento<br><unique>Pasiva ÚNICA:</unique> Otorga <unlockedPassive>Corazón de Warmog</unlockedPassive> si tienes al menos 3000 de vida máxima.<br><br><unlockedPassive>Corazón de Warmog:</unlockedPassive> Restaura un 25% de tu vida máxima cada 5 s si no has recibido daño en los últimos 6 s (3 s en el caso de haber recibido daño de súbditos y monstruos).",
+       
+        "plaintext": "Otorga una enorme cantidad de vida y regeneración de vida.",
+        "from": [
+            "1011",
+            "3067",
+            "3801"
+        ],
+        
+        "gold": {
+            "base": 400,
+            "purchasable": true,
+            "total": 2850,
+            "sell": 1995
+        },
+        "tags": [
+            "Health",
+            "HealthRegen",
+            "CooldownReduction"
+        ],
+       
+        "stats": {
+            "FlatHPPoolMod": 800
+        },
+        
+        "depth": 3
+    },
+    {
+        "id": "3084",
+        "name": "Sangría del soberano",
+        "description": "<stats>+800 vida<br>+100% regeneración de vida básica </stats><br><br><unique>Pasiva ÚNICA:</unique> Al asesinar a un campeón (o contribuir a hacerlo), restaura 300 puntos de vida a lo largo de 5 s.",
+       
+        "plaintext": "Restaura vida al matar o ayudar.",
+        "from": [
+            "1011",
+            "3801"
+        ],
+      
+        "gold": {
+            "base": 900,
+            "purchasable": true,
+            "total": 2550,
+            "sell": 1785
+        },
+        "tags": [
+            "Health",
+            "HealthRegen"
+        ],
+        "stats": {
+            "FlatHPPoolMod": 800
+        },
+        "depth": 3
+    },
+    {
+        "id": "3102",
+        "name": "Velo del hada de la muerte",
+        "description": "<stats>+75 de poder de habilidad<br>+60 de resistencia mágica<br>+10% de reducción de enfriamiento</stats><br><br><unique>Pasiva ÚNICA - Escudo de hechizos:</unique> Otorga un escudo de hechizos que bloquea la siguiente habilidad enemiga. El escudo se regenera si no sufres daño de campeones enemigos durante 40 s.",
+        "plaintext": "Bloquea de vez en cuando las habilidades enemigas.",
+        "from": [
+            "3108",
+            "1033",
+            "1026"
+        ],
+        "gold": {
+            "base": 800,
+            "purchasable": true,
+            "total": 3000,
+            "sell": 2100
+        },
+        "tags": [
+            "SpellBlock",
+            "SpellDamage",
+            "CooldownReduction"
+        ],
+        "stats": {
+            "FlatSpellBlockMod": 60,
+            "FlatMagicDamageMod": 75
+        },
+        "depth": 3
+    },
+    {
+        "id": "3105",
+        "name": "Protección de la legión",
+        "description": "<stats>+30 de armadura<br>+30 de resistencia mágica</stats>",
+        "plaintext": "Otorga armadura y resistencia mágica.",
+        "from": [
+            "1033",
+            "1029"
+        ],
+        "into": [
+            "3190",
+            "3050"
+        ],
+        "gold": {
+            "base": 350,
+            "purchasable": true,
+            "total": 1100,
+            "sell": 770
+        },
+        "tags": [
+            "SpellBlock",
+            "Armor"
+        ],
+        "stats": {
+            "FlatSpellBlockMod": 30,
+            "FlatArmorMod": 30
+        },
+        "depth": 2
+    },
+    {
+        "id": "3107",
+        "name": "Redención",
+        "description": "<stats>+200 de vida<br>+50% de regeneración de vida básica <br><mana>+150% de regeneración de maná básica </mana><br>+10% de reducción de enfriamiento</stats><br><br><passive>Pasiva ÚNICA:</passive> +10% de poder de curaciones y escudos.<br><active>Activa ÚNICA:</active> Selecciona como objetivo un área a una distancia máxima de 5500. Después de 2,5 s, invoca un rayo de luz que cura a los aliados 10 (+20 por nivel del objetivo) de vida, quema a los campeones enemigos un 10% de su vida máxima como daño <font color='#FFFFFF'>verdadero</font> e inflige 250 de daño <font color='#FFFFFF'>verdadero</font> a los súbditos enemigos (120 s de enfriamiento). El poder de curaciones y escudos es 3 veces más efectivo para la curación de Redención.<br><br>Se puede usar estando muerto.<br><br><rules>Tiene la mitad del efecto si el objetivo ha recibido los efectos de otra Redención hace poco.</rules>",
+        "plaintext": "Puede activarse para curar a los aliados e infligir daño a los enemigos en el área.",
+        "from": [
+            "3114",
+            "3801"
+        ],
+        "into": [
+            "3382"
+        ],
+        "gold": {
+            "base": 650,
+            "purchasable": true,
+            "total": 2100,
+            "sell": 1470
+        },
+        "tags": [
+            "Health",
+            "HealthRegen",
+            "ManaRegen",
+            "CooldownReduction"
+        ],
+        "stats": {
+            "FlatHPPoolMod": 200
+        },
+        "depth": 3
+    },
+    {
+        "id": "3109",
+        "name": "Promesa de caballero",
+        "description": "<stats>+250 de vida<br>+40 de armadura<br>+10% de reducción de enfriamiento</stats><br><br><active>Activa ÚNICA:</active> Escoge a un campeón aliado como tu <a href='KnightsVowPartner'>compañero</a> (90 s de enfriamiento).<br><passive>Pasiva ÚNICA:</passive> Si tu <a href='KnightsVowPartner'>compañero</a> está cerca, obtienes +20 de armadura adicional y +15% de velocidad de movimiento al moverte hacia él.<br><passive>Pasiva ÚNICA:</passive> Si tu <a href='KnightsVowPartner'>compañero</a> está cerca, te curas un 12% del daño que <a href='KnightsVowPartner'>tu compañero</a> inflige a los campeones y rediriges hacia ti un 12% del daño que tu <a href='KnightsVowPartner'>compañero</a> recibe de los campeones como daño <font color='#FFFFFF'>verdadero</font> (la curación y la redirección de daño se reducen un 50% si eres un campeón a distancia).<br><br><rules>(Los campeones solo pueden estar vinculados por una Promesa de caballero a la vez).</rules>",
+        "plaintext": "Asóciate con un aliado para protegeros el uno al otro.",
+        "from": [
+            "3067",
+            "1031"
+        ],
+        "gold": {
+            "base": 600,
+            "purchasable": true,
+            "total": 2200,
+            "sell": 1540
+        },
+        "tags": [
+            "Health",
+            "Armor",
+            "Aura",
+            "CooldownReduction",
+            "NonbootsMovement"
+        ],
+        "stats": {
+            "FlatHPPoolMod": 250,
+            "FlatArmorMod": 40
+        },
+        "depth": 3
+    },
+    {
+        "id": "3110",
+        "name": "Corazón de hielo",
+        "description": "<stats>+110 armadura<br>+20% reducción de enfriamiento<br><mana>+400 maná</mana></stats><br><br><aura>Aura ÚNICA:</aura> Reduce un 15% la velocidad de ataque de los enemigos cercanos.",
+        "plaintext": "Aumenta considerablemente la armadura y ralentiza los ataques básicos del enemigo.",
+        "from": [
+            "3082",
+            "3024"
+        ],
+        "gold": {
+            "base": 800,
+            "purchasable": true,
+            "total": 2700,
+            "sell": 1890
+        },
+        "tags": [
+            "Armor",
+            "Aura",
+            "CooldownReduction",
+            "Mana"
+        ],
+        "stats": {
+            "FlatMPPoolMod": 400,
+            "FlatArmorMod": 110
+        },
+        "effect": {
+            "Effect1Amount": "-0.2",
+            "Effect2Amount": "-0.15"
+        },
+        "depth": 3
+    },
+    {
+        "id": "3111",
+        "name": "Botas de mercurio",
+        "description": "<groupLimit>Limitado a 1 par de botas.</groupLimit><br><br><stats>+25 de resistencia mágica</stats><br><br><unique>Pasiva ÚNICA - Movimiento mejorado:</unique> +45 de velocidad de movimiento<br><unique>Pasiva ÚNICA - Tenacidad:</unique> Reduce un 30% la duración de aturdimientos, ralentizaciones, provocaciones, miedos, silencios, cegueras, cambios de forma e inmovilizaciones.",
+        "plaintext": "Aumenta la velocidad de movimiento y reduce la duración de los efectos incapacitantes.",
+        "from": [
+            "1001",
+            "1033"
+        ],
+        "gold": {
+            "base": 350,
+            "purchasable": true,
+            "total": 1100,
+            "sell": 770
+        },
+        "tags": [
+            "Boots",
+            "SpellBlock",
+            "Tenacity"
+        ],
+        "stats": {
+            "FlatMovementSpeedMod": 45,
+            "FlatSpellBlockMod": 25
+        },
+        "depth": 2
+    },
+    {
+        "id": "3112",
+        "name": "Orbe del guardián",
+        "description": "<stats>+150 de vida<br>+35 de poder de habilidad<br><mana>+10 de regeneración de maná cada 5 s</mana></stats><br><br><groupLimit>Limitado a 1 objeto de guardián.</groupLimit>",
+        "plaintext": "Buen objeto inicial para magos.",
+        "gold": {
+            "base": 950,
+            "purchasable": true,
+            "total": 950,
+            "sell": 380
+        },
+        "tags": [
+            "Health",
+            "SpellDamage",
+            "ManaRegen",
+            "Lane"
+        ],
+        "stats": {
+            "FlatHPPoolMod": 150,
+            "FlatMagicDamageMod": 35
+        }
+    },
+    {
+        "id": "3117",
+        "name": "Botas de movilidad",
+        "description": "<groupLimit>Limitado a 1 par de botas.</groupLimit><br><br><unique>Pasiva ÚNICA - Movimiento mejorado:</unique> +25 de velocidad de movimiento. Aumenta hasta +115 de velocidad de movimiento fuera de combate durante 5 s.",
+        "plaintext": "Mejora en gran medida la velocidad de movimiento cuando no estás en combate.",
+        "from": [
+            "1001"
+        ],
+        "gold": {
+            "base": 600,
+            "purchasable": true,
+            "total": 900,
+            "sell": 630
+        },
+        "tags": [
+            "Boots"
+        ],
+        "stats": {
+            "FlatMovementSpeedMod": 115
+        },
+        "depth": 2
+    },
+    {
+        "id": "3140",
+        "name": "Fajín de mercurio",
+        "description": "<stats>+30 de resistencia mágica</stats><br><br><active>Activa ÚNICA, Mercurio:</active> Elimina todas las debilitaciones de control de adversario (90 s de enfriamiento).",
+        "plaintext": "Puede activarse para eliminar todas las debilitaciones de control de adversario.",
+        "from": [
+            "1033"
+        ],
+        "into": [
+            "3139",
+            "3137"
+        ],
+        "gold": {
+            "base": 850,
+            "purchasable": true,
+            "total": 1300,
+            "sell": 910
+        },
+        "tags": [
+            "Active",
+            "SpellBlock"
+        ],
+        "stats": {
+            "FlatSpellBlockMod": 30
+        },
+        "depth": 2
+    },
+    {
+        "id": "3143",
+        "name": "Presagio de Randuin",
+        "description": "<stats>+400 de vida<br>+70 de armadura</stats><br><br><unique>Pasiva ÚNICA:</unique> -20% de daño recibido de golpes críticos de ataques básicos.<br><unique>Pasiva ÚNICA - Acero frío:</unique> Si te alcanza un ataque básico, reduces un 15% la velocidad de ataque del atacante durante 1 s.<br><active>Activa ÚNICA:</active> Reduce un 55% la velocidad de movimiento de las unidades enemigas cercanas durante 2 s (60 s de enfriamiento).",
+        "plaintext": "Aumenta notablemente las defensas; puede activarse para ralentizar a los enemigos cercanos.",
+        "from": [
+            "3082",
+            "1011"
+        ],
+        "gold": {
+            "base": 900,
+            "purchasable": true,
+            "total": 2900,
+            "sell": 2030
+        },
+        "tags": [
+            "Active",
+            "Armor",
+            "Health",
+            "Slow"
+        ],
+        "stats": {
+            "FlatHPPoolMod": 400,
+            "FlatArmorMod": 70
+        },
+        "depth": 3
+    },
+    {
+        "id": "3155",
+        "name": "Sorbemaleficios",
+        "description": "<stats>+20 daño de ataque<br>+35 resistencia mágica</stats><br><br><unique>Pasiva ÚNICA, Salvavidas:</unique> Al recibir daño mágico que reduzca la vida por debajo del 30%, otorga un escudo que absorbe de 110 a 280 puntos de daño mágico durante 5 s (90 s de enfriamiento).",
+        "plaintext": "Aumenta el daño de ataque y la resistencia mágica.",
+        "stacks": 0,
+        "from": [
+            "1036",
+            "1033"
+        ],
+        "into": [
+            "3156"
+        ],
+        "gold": {
+            "base": 500,
+            "purchasable": true,
+            "total": 1300,
+            "sell": 910
+        },
+        "tags": [
+            "Damage",
+            "SpellBlock"
+        ],
+        "stats": {
+            "FlatPhysicalDamageMod": 20,
+            "FlatSpellBlockMod": 35
+        },
+        "depth": 2
+    },
+    {
+        "id": "3156",
+        "name": "Fauces de Malmortius",
+        "description": "<stats>+50 de daño de ataque<br>+50 de resistencia mágica<br>+10% de reducción de enfriamiento</stats><br><br><unique>Pasiva ÚNICA - Salvavidas:</unique> Al recibir daño mágico que reduzca la vida por debajo del 30%, otorga un escudo que absorbe hasta 350 de daño mágico en un margen de 5 s (90 s de enfriamiento).<br><unlockedPassive>Agarre a la vida:</unlockedPassive> Cuando <i>Salvavidas</i> se activa, obtienes +20 de daño de ataque, +10% de succión de hechizo y +10% de robo de vida hasta salir de combate.",
+        "plaintext": "Otorga daño de ataque adicional cuando tienes poca vida.",
+        "stacks": 0,
+        "from": [
+            "3155",
+            "3133"
+        ],
+        "gold": {
+            "base": 850,
+            "purchasable": true,
+            "total": 3250,
+            "sell": 2275
+        },
+        "tags": [
+            "SpellBlock",
+            "Damage",
+            "LifeSteal",
+            "CooldownReduction",
+            "SpellVamp"
+        ],
+        "stats": {
+            "FlatPhysicalDamageMod": 50,
+            "FlatSpellBlockMod": 50
+        },
+        "depth": 3
+    },
+    {
+        "id": "3157",
+        "name": "Reloj de arena de Zhonya",
+        "description": "<stats>+75 de poder de habilidad<br>+45 de armadura<br>+10% de reducción de enfriamiento</stats><br><br><active>Activa ÚNICA, Estasis:</active> El campeón será invulnerable e inalcanzable durante 2.5 s, pero tampoco podrá moverse, atacar, lanzar hechizos o usar objetos durante ese tiempo (120 s de enfriamiento).",
+        "plaintext": "Puede activarse para hacerte invencible, aunque no podrás realizar acciones.",
+        "from": [
+            "3191",
+            "3108",
+            "2420"
+        ],
+        "into": [
+            "3386"
+        ],
+        "gold": {
+            "base": 300,
+            "purchasable": true,
+            "total": 2900,
+            "sell": 2030
+        },
+        "tags": [
+            "Armor",
+            "SpellDamage",
+            "Active",
+            "CooldownReduction"
+        ],
+        "stats": {
+            "FlatMagicDamageMod": 75,
+            "FlatArmorMod": 45
+        },
+        "depth": 3
+    },
+    {
+        "id": "3158",
+        "name": "Botas jonias de la lucidez",
+        "description": "<groupLimit>Limitado a 1 par de botas.</groupLimit><br><br><unique>Pasiva ÚNICA:</unique> +10% de reducción de enfriamiento<br><unique>Pasiva ÚNICA - Movimiento mejorado:</unique> +45 de velocidad de movimiento<br><unique>Pasiva ÚNICA:</unique> Reduce un 10% los enfriamientos de los hechizos de invocador.<br><br><br><rules><font color='#FDD017'>''Este objeto está dedicado a la victoria de Jonia sobre Noxus en la revancha por las provincias meridionales del 10 de diciembre del 20 CLE''.</font></rules>",
+        "plaintext": "Aumenta la velocidad de movimiento y la reducción de enfriamiento.",
+        "from": [
+            "1001"
+        ],
+        "gold": {
+            "base": 600,
+            "purchasable": true,
+            "total": 900,
+            "sell": 630
+        },
+        "tags": [
+            "Boots",
+            "CooldownReduction"
+        ],
+        "stats": {
+            "FlatMovementSpeedMod": 45
+        },
+        "depth": 2
+    },
+    {
+        "id": "3174",
+        "name": "Grial impuro de Athene",
+        "description": "<stats>+30 de poder de habilidad<br>+30 de resistencia mágica<br>+10% de reducción de enfriamiento<br><mana>+100% de regeneración de maná básica </mana></stats><br><br><unique>Pasiva ÚNICA:</unique> Obtienes 35% del daño <a href='premitigation'><font color='#6666FF'><u>premitigado</u></font></a> infligido a campeones como cargas de sangre, hasta un máximo de <scaleLevel>100-250</scaleLevel>. Curar o ponerle un escudo a otro aliado consume cargas por un valor igual al 100% del valor de la curación o del escudo, y cura al aliado la misma cantidad.<br><unique>Pasiva ÚNICA - Disonancia:</unique> Otorga 5 de poder de habilidad por cada 25% de regeneración de maná básica que tengas. Desactiva <unique>Armonía</unique> de tus otros objetos.<br><br><rules>(La cantidad máxima de cargas de sangre almacenadas depende del nivel. La mejora de la curación se aplica sobre el valor total de curación).</rules>",
+        "plaintext": "Inflige daño para potenciar tus curaciones y escudos.",
+        "from": [
+            "3108",
+            "3028"
+        ],
+        "gold": {
+            "base": 400,
+            "purchasable": true,
+            "total": 2100,
+            "sell": 1470
+        },
+        "tags": [
+            "SpellBlock",
+            "HealthRegen",
+            "SpellDamage",
+            "ManaRegen",
+            "CooldownReduction"
+        ],
+        "stats": {
+            "FlatSpellBlockMod": 30,
+            "FlatMagicDamageMod": 30
+        },
+        "depth": 3
+    },
+    {
+        "id": "3184",
+        "name": "Martillo del guardián",
+        "description": "<stats>+150 de vida<br>+20 de daño de ataque<br>+10% de robo de vida</stats><br><br><groupLimit>Limitado a 1 objeto de guardián.</groupLimit>",
+        "plaintext": "Buen objeto inicial para atacantes.",
+        "gold": {
+            "base": 950,
+            "purchasable": true,
+            "total": 950,
+            "sell": 380
+        },
+        "tags": [
+            "Health",
+            "Damage",
+            "LifeSteal",
+            "Lane"
+        ],
+        "stats": {
+            "FlatPhysicalDamageMod": 20,
+            "FlatHPPoolMod": 150,
+            "PercentLifeStealMod": 0.1
+        }
+    },
+    {
+        "id": "3190",
+        "name": "Medallón de los Solari de Hierro",
+        "description": "<stats>+30 de armadura<br>+60 de resistencia mágica</stats><br><br><active>Activa ÚNICA:</active> Los campeones aliados cercanos reciben un escudo que se desvanece durante 2.5 s y que absorbe hasta 120 (+10 por nivel) <scaleHealth>(+20% de la vida adicional)</scaleHealth> de daño (120 s de enfriamiento).<br><br><rules>El escudo por nivel utiliza el más alto de los niveles entre el tuyo y el del objetivo.<br>La relación de escudo progresa con el nivel.<br>La cantidad de escudo se reduce a 25% si el objetivo ya se ha visto afectado por otro Medallón de los Solari de Hierro en los últimos 20 s.</rules>",
+        "plaintext": "Puede activarse para proteger a los aliados cercanos del daño.",
+        "from": [
+            "3105",
+            "1033"
+        ],
+        "into": [
+            "3383"
+        ],
+        "gold": {
+            "base": 650,
+            "purchasable": true,
+            "total": 2200,
+            "sell": 1540
+        },
+        "tags": [
+            "SpellBlock",
+            "Armor",
+            "Active"
+        ],
+        "stats": {
+            "FlatSpellBlockMod": 60,
+            "FlatArmorMod": 30
+        },
+        "depth": 3
+    },
+    {
+        "id": "3191",
+        "name": "Brazalete de la buscadora",
+        "description": "<stats>+30 armadura<br>+20 poder de habilidad</stats><br><br><unique>Pasiva ÚNICA:</unique> Asesinar a una unidad otorga 0.5 de armadura y de poder de habilidad adicionales. Se puede acumular hasta 30 veces.",
+        "plaintext": "Aumenta la armadura y el poder de habilidad.",
+        "from": [
+            "1029",
+            "1052",
+            "1029"
+        ],
+        "into": [
+            "3157"
+        ],
+        "gold": {
+            "base": 65,
+            "purchasable": true,
+            "total": 1100,
+            "sell": 770
+        },
+        "tags": [
+            "Armor",
+            "SpellDamage"
+        ],
+        "stats": {
+            "FlatMagicDamageMod": 20,
+            "FlatArmorMod": 30
+        },
+        "depth": 2
+    },
+    {
+        "id": "3193",
+        "name": "Protector pétreo de gárgola",
+        "description": "<stats>+40 de armadura<br>+40 de resistencia mágica</stats><br><br><unique>Pasiva ÚNICA - Piel de piedra:</unique> Si hay más de 3 campeones enemigos cerca, otorga 40 de armadura y resistencia mágica adicionales.<br><active>Activa ÚNICA - Metalización:</active> Aumenta la vida un 40% y el tamaño del campeón, pero reduce el daño infligido un 60% durante 4 s (90 s de enfriamiento). Si Piel de piedra está activa, el aumento de vida es de un 100%.",
+        "plaintext": "Aumenta considerablemente la defensa cerca de varios enemigos.",
+        "from": [
+            "1031",
+            "1057",
+            "2420"
+        ],
+        "gold": {
+            "base": 380,
+            "purchasable": true,
+            "total": 2500,
+            "sell": 1750
+        },
+        "tags": [
+            "Health",
+            "SpellBlock",
+            "Armor"
+        ],
+        "stats": {
+            "FlatSpellBlockMod": 40,
+            "FlatArmorMod": 40
+        },
+        "depth": 3
+    },
+    {
+        "id": "3194",
+        "name": "Yelmo adaptable",
+        "description": "<stats>+350 de vida<br>+55 de resistencia mágica<br>+100% de regeneración de vida básica <br>+10% de reducción de enfriamiento</stats><br><br><unique>Pasiva ÚNICA:</unique> Recibir daño mágico de un hechizo o efecto reduce el daño mágico siguiente recibido de ese mismo hechizo o efecto un 20% durante 4 s.",
+        "plaintext": "Reduce el daño de los hechizos y efectos repetidos.",
+        "from": [
+            "1033",
+            "3211",
+            "1006"
+        ],
+        "gold": {
+            "base": 1000,
+            "purchasable": true,
+            "total": 2800,
+            "sell": 1960
+        },
+        "tags": [
+            "Health",
+            "SpellBlock",
+            "HealthRegen",
+            "CooldownReduction"
+        ],
+        "stats": {
+            "FlatHPPoolMod": 350,
+            "FlatSpellBlockMod": 55
+        },
+        "depth": 3
+    },
+    {
+        "id": "3211",
+        "name": "Hábito del espectro",
+        "description": "<stats>+250 vida<br>+25 resistencia mágica</stats><br><br><unique>Pasiva ÚNICA:</unique> Otorga un 150% de regeneración de vida básica durante un máximo de 10 s tras sufrir daño a manos de un campeón enemigo.",
+        "plaintext": "Mejora la defensa y otorga regeneración al recibir daño.",
+        "from": [
+            "1028",
+            "1033"
+        ],
+        "into": [
+            "3065",
+            "3194"
+        ],
+        "gold": {
+            "base": 350,
+            "purchasable": true,
+            "total": 1200,
+            "sell": 840
+        },
+        "tags": [
+            "Health",
+            "HealthRegen",
+            "SpellBlock"
+        ],
+        "stats": {
+            "FlatHPPoolMod": 250,
+            "FlatSpellBlockMod": 25
+        },
+        "depth": 2
+    },
+    {
+        "id": "3222",
+        "name": "Crisol de Mikael",
+        "description": "<stats>+40 de resistencia mágica<br>+10% de reducción de enfriamiento<br><mana>+100% de regeneración de maná básica </mana></stats><br><br><unique>Pasiva ÚNICA:</unique> +20% de potencia en curaciones y escudos<br><unique>Pasiva ÚNICA, armonía:</unique> otorga un porcentaje de regeneración de vida básica adicional igual al porcentaje de regeneración de maná básico adicional.<br><active>Activa ÚNICA:</active> Limpia todos los aturdimientos, inmovilizaciones, provocaciones, miedos, silencios y ralentizaciones en un campeón aliado y le concede inmunidad a ralentizaciones durante 2 s (120 s de enfriamiento). <br><br>Eliminar un efecto otorga al aliado un 40% de velocidad de movimiento durante 2 s.",
+        "plaintext": "Puede activarse para eliminar todos los efectos incapacitantes de un campeón aliado.",
+        "from": [
+            "3028",
+            "3114"
+        ],
+        "gold": {
+            "base": 500,
+            "purchasable": true,
+            "total": 2100,
+            "sell": 1470
+        },
+        "tags": [
+            "SpellBlock",
+            "HealthRegen",
+            "ManaRegen",
+            "Active",
+            "CooldownReduction"
+        ],
+        "stats": {
+            "FlatSpellBlockMod": 40
+        },
+        "depth": 3
+    }
+]

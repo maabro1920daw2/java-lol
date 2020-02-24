@@ -1,0 +1,210 @@
+[
+    {
+        "id":"2003",
+        "name": "Poción de vida",
+        "description": "<groupLimit>Limitado a 5 a la vez. Limitado a 1 tipo de poción de curación.</groupLimit><br><br><consumable>Pulsar para utilizar.</consumable> Restaura 150 de vida a lo largo de 15 s.",
+        
+        "plaintext": "Al usarse restaura vida a lo largo del tiempo.",
+        "stacks": 5,
+        "consumed": true,
+        
+        "gold": {
+            "base": 50,
+            "purchasable": true,
+            "total": 50,
+            "sell": 20
+        },
+        "tags": [
+            "Consumable",
+            "Jungle",
+            "Lane"
+        ],
+        
+        "stats": {}       
+    },
+     {
+         "id":"2006",
+        "name": "Poción de vida de duelo",
+        "description": "<groupLimit>Limitado a 2 a la vez. Limitado a 1 tipo de poción de curación.</groupLimit><br><br><consumable>Pulsar para utilizar:</consumable> Restaura 150 de vida a lo largo de 15 s.",
+       
+        "plaintext": "Al usarse restaura vida a lo largo del tiempo.",
+        "stacks": 2,
+        "consumed": true,
+        
+        "gold": {
+            "base": 50,
+            "purchasable": true,
+            "total": 50,
+            "sell": 20
+        },
+        "tags": [
+            "Consumable",
+            "Jungle",
+            "Lane"
+        ],
+        
+        "stats": {}
+      
+    },
+     {
+         "id":"2009",
+        "name": "Galleta de rejuvenecimiento",
+        "description": "<consumable>Pulsar para utilizar.</consumable> Restaura 80 de vida y 50 de maná a lo largo de 10 s.",
+        
+        "plaintext": "",
+        "consumed": true,
+        
+        
+        "gold": {
+            "base": 0,
+            "purchasable": false,
+            "total": 0,
+            "sell": 0
+        },
+        "tags": [],
+        
+        "stats": {}
+    },
+    {
+        "id":"2010",
+        "name": "Galleta de la voluntad eterna",
+        "description": "<consumable>Pulsar para utilizar:</consumable> Restaura un 10% de la vida y el maná que te falten a lo largo de 5 s.",
+        
+        "plaintext": "",
+        "stacks": 10,
+        "consumed": true,
+        "inStore": false,
+        "hideFromAll": true,
+        
+        "gold": {
+            "base": 75,
+            "purchasable": false,
+            "total": 75,
+            "sell": 30
+        },
+        "tags": [],
+        
+        "stats": {}
+       
+    }, {
+        "id":"2047",
+        "name": "Extracto del oráculo",
+        "description": "<consumable>Pulsar para utilizar.</consumable> Concede la visión de las unidades invisibles u ocultas cercanas durante 5 min.",
+        
+        "plaintext": "Permite al campeón ver las unidades enemigas invisibles u ocultas.",
+        "consumed": true,
+        "consumeOnFull": true,
+        
+        "gold": {
+            "base": 300,
+            "purchasable": true,
+            "total": 300,
+            "sell": 120
+        },
+        "tags": [
+            "Consumable",
+            "Stealth",
+            "Vision"
+        ],
+       
+        "stats": {}
+    },
+     {
+         "id":"2055",
+        "name": "Guardián de control",
+        "description": "<groupLimit>Solo se pueden llevar 2 guardianes de control en el inventario.</groupLimit><br><br><consumable>Pulsar para utilizar:</consumable> Coloca un guardián que otorga visión de la zona circundante. Este dispositivo también revela las trampas invisibles y revela/deshabilita los guardianes. Los guardianes de control no deshabilitan otros guardianes de control. Las unidades en camuflaje también serán reveladas. <br><br>Límite de 1 <font color='#BBFFFF'>guardianes de control</font> en el mapa por jugador.",
+        "plaintext": "Se usa para desactivar guardianes y trampas invisibles de una zona.",
+        "stacks": 2,
+        "consumed": true,
+        
+        "gold": {
+            "base": 75,
+            "purchasable": true,
+            "total": 75,
+            "sell": 30
+        },
+        "tags": [
+            "Consumable",
+            "Lane",
+            "Stealth",
+            "Vision"
+        ],
+      
+        "stats": {}
+        
+    },
+     {
+         "id":"2138",
+        "name": "Elixir de hierro",
+        "description": "<stats><levelLimit>No se puede comprar antes del nivel 9.</levelLimit></stats><br><br><consumable>Pulsar para utilizar.</consumable> Otorga +300 de vida, 25% de tenacidad, aumento del tamaño del campeón y <font color='#FF8811'><u>Senda del Hierro</u></font> durante 3 minutos.<br><br><font color='#FF8811'><u>Senda del Hierro:</u></font> Al moverse, se deja detrás una senda que aumenta un 15% la velocidad de movimiento de los campeones aliados.<br><br><rules>(Solo se puede tener un Elixir activo)</rules>",
+        
+        "plaintext": "Aumenta temporalmente las defensas y deja un rastro que pueden seguir los aliados.",
+        "consumed": true,
+        "consumeOnFull": true,
+        
+        "gold": {
+            "base": 500,
+            "purchasable": true,
+            "total": 500,
+            "sell": 200
+        },
+        "tags": [
+            "Health",
+            "Consumable",
+            "NonbootsMovement",
+            "Tenacity"
+        ],
+        
+        "stats": {}
+        
+    },
+    {
+        "id":"2139",
+        "name": "Elixir de brujería",
+        "description": "<stats><levelLimit>No se puede comprar antes del nivel 9.</levelLimit></stats><br><br><consumable>Pulsar para utilizar.</consumable> Otorga +50 de poder de habilidad, 15 de regeneración de maná adicional cada 5 s y <font color='#FF8811'><u>Brujería</u></font> durante 3 minutos. <br><br><font color='#FF8811'><u>Brujería:</u></font> Al causar daño a un campeón o una torreta, se inflige 25 de daño verdadero adicional. Este efecto tiene un enfriamiento de 5 s contra campeones, pero contra torretas no tiene enfriamiento.<br><br><rules>(Solo se puede tener un Elixir activo)</rules><br>",
+        
+        "plaintext": "Otorga temporalmente poder de habilidad y daño adicional a campeones y torretas.",
+        "consumed": true,
+        "consumeOnFull": true,
+        
+        "gold": {
+            "base": 500,
+            "purchasable": true,
+            "total": 500,
+            "sell": 200
+        },
+        "tags": [
+            "Consumable",
+            "ManaRegen",
+            "SpellDamage"
+        ],
+       
+        "stats": {}
+       
+    },
+     {
+         "id":"2140",
+        "name": "Elixir de cólera",
+        "description": "<stats><levelLimit>No se puede comprar antes del nivel 9.</levelLimit></stats><br><br><consumable>Pulsar para utilizar.</consumable> Otorga +30 de daño de ataque y <font color='#FF8811'><u>Sed de sangre</u></font> durante 3 minutos.<br><br><font color='#FF8811'><u>Sed de sangre:</u></font> Se recupera como vida el 15% del daño físico infligido a campeones.<br><br><rules>(Solo se puede tener un Elixir activo)</rules>",
+        
+        "plaintext": "Otorga temporalmente daño de ataque y te cura cuando infliges daño físico a campeones.",
+        "consumed": true,
+        "consumeOnFull": true,
+        
+        "gold": {
+            "base": 500,
+            "purchasable": true,
+            "total": 500,
+            "sell": 200
+        },
+        "tags": [
+            "Consumable",
+            "Damage",
+            "LifeSteal",
+            "SpellVamp"
+        ],
+      
+        "stats": {}
+        
+    }
+]
