@@ -11,12 +11,13 @@ import java.util.ArrayList;
 
 public class Usuario {
 	private int code;
-	private String nombre, password, elo;
+	private String nombre, password;
+        private Elo elo;
 	//private ArrayList<Build> builds = new ArrayList<Build>();
 	
 	public Usuario() {}
 	
-	public Usuario(int code, String nombre, String password, String elo) {
+	public Usuario(int code, String nombre, String password, Elo elo) {
 		super();
 		this.code = code;
 		this.nombre = nombre;
@@ -38,7 +39,7 @@ public class Usuario {
 		return password;
 	}
 
-	public String getElo() {
+	public Elo getElo() {
 		return elo;
 	}
 
@@ -58,7 +59,7 @@ public class Usuario {
 		this.password = password;
 	}
 
-	public void setElo(String elo) {
+	public void setElo(Elo elo) {
 		this.elo = elo;
 	}
 	
