@@ -20,7 +20,7 @@ public class Campeon {
         this.title = title;
         this.stats = stats;
     }
-
+    
     public void buscarCampeon(ArrayList<Campeon> c) {
         boolean good = false;
         System.out.println("Introduce el nombre del campeon: ");
