@@ -21,14 +21,16 @@ import java.util.TreeMap;
 import objetos.Ataque;
 import objetos.Consumible;
 import objetos.Defensa;
+import usuarios.Elo;
+import usuarios.Usuario;
 
 public class AppMain extends Application {
 
     public static void main(String[] args) {
-        ArrayList<Campeon> cn = new ArrayList<Campeon>();
-        Map<String, Ataque> ma = new TreeMap<String, Ataque>();
-        Map<String, Defensa> md = new TreeMap<String, Defensa>();
-        Map<String, Consumible> mc = new TreeMap<String, Consumible>();
+        /*ArrayList<Campeon> cn = new ArrayList<>();
+        Map<String, Ataque> ma = new TreeMap<>();
+        Map<String, Defensa> md = new TreeMap<>();
+        Map<String, Consumible> mc = new TreeMap<>();
         Campeon cp = new Campeon();
         Gson gson = new Gson();
         try (Reader champFile = new FileReader("C:\\Users\\marco\\Documents\\NetBeansProjects\\M03UF5_PROYECTO\\assets\\json\\data.json")) {
@@ -78,18 +80,20 @@ public class AppMain extends Application {
         //cp.buscarCampeon(cn);
         System.out.println("Total ataque: " + ma.size());
         System.out.println("Total defensa: " + md.size());
-        System.out.println("Total consumibles: " + mc.size());
-        //launch(args);
+        System.out.println("Total consumibles: " + mc.size());*/
+        launch(args);
+        //Usuario u = new Usuario(1,"admin","1234",Elo.BRONCE);
+        //System.out.println(u.toString());
     }
 
     @Override
     public void start(Stage stage) throws Exception {
-        Parent root = FXMLLoader.load(getClass().getResource("EscenaInicio.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("EscenaBuild.fxml"));
 
         Scene scene = new Scene(root);
 
         stage.setScene(scene);
-        //stage.show();
+        stage.show();
     }
 
 }
