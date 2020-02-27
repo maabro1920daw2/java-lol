@@ -27,12 +27,11 @@ import usuarios.Usuario;
 public class AppMain extends Application {
 
     public static void main(String[] args) {
-        /*ArrayList<Campeon> cn = new ArrayList<>();
+        /*Gson gson = new Gson();
+        ArrayList<Campeon> cn = new ArrayList<>();
         Map<String, Ataque> ma = new TreeMap<>();
         Map<String, Defensa> md = new TreeMap<>();
         Map<String, Consumible> mc = new TreeMap<>();
-        Campeon cp = new Campeon();
-        Gson gson = new Gson();
         try (Reader champFile = new FileReader("C:\\Users\\marco\\Documents\\NetBeansProjects\\M03UF5_PROYECTO\\assets\\json\\data.json")) {
             Campeon[] object = gson.fromJson(champFile, Campeon[].class);
             int n = 0;
@@ -76,19 +75,13 @@ public class AppMain extends Application {
             }
         } catch (IOException e) {
             e.printStackTrace();
-        }
-        //cp.buscarCampeon(cn);
-        System.out.println("Total ataque: " + ma.size());
-        System.out.println("Total defensa: " + md.size());
-        System.out.println("Total consumibles: " + mc.size());*/
+        } */      
         launch(args);
-        //Usuario u = new Usuario(1,"admin","1234",Elo.BRONCE);
-        //System.out.println(u.toString());
     }
 
     @Override
     public void start(Stage stage) throws Exception {
-        Parent root = FXMLLoader.load(getClass().getResource("EscenaBuild.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("EscenaLista.fxml"));
 
         Scene scene = new Scene(root);
 

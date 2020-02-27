@@ -3,10 +3,10 @@ package campeones;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Campeon {
+public class Campeon implements Comparable<Campeon> {
 
     private int key;
-    private String id, name, title;
+    private String id, name, title, compare;
     private StatsCampeon stats;
 
     public Campeon() {
@@ -20,15 +20,13 @@ public class Campeon {
         this.title = title;
         this.stats = stats;
     }
-    
-    public void buscarCampeon(ArrayList<Campeon> c) {
+
+    public Campeon buscarCampeon(ArrayList<Campeon> c, String cs) {
         boolean good = false;
-        System.out.println("Introduce el nombre del campeon: ");
-        Scanner ent = new Scanner(System.in);
-        String cs = ent.next();
+        Campeon cB = new Campeon();
         for (Campeon cn : c) {
             if (cn.getName().equalsIgnoreCase(cs)) {
-                System.out.println(cn.toString());
+                cB = cn;
                 good = true;
                 break;
             }
@@ -36,14 +34,45 @@ public class Campeon {
         if (!good) {
             System.out.println("Campeon no encontrado.");
         }
+        return cB;
     }
 
     @Override
     public String toString() {
-        return "Nombre: "+name+"\nTitulo: "+title+"\nVida: "+stats.getHp()+"\nMana: "+stats.getMp();
+        return "Nombre: " + name + "\nTitulo: " + title + "\nVida: " + stats.getHp() + "\nMana: " + stats.getMp();
     }
-    
-    
+
+    @Override
+    public int compareTo(Campeon c) {
+        switch (this.compare) {
+            case "hp":
+                if (this.stats.getHp() > c.getStats().getHp()) {
+                    return 1;
+                } else if (this.stats.getHp() < c.getStats().getHp()) {
+                    return -1;
+                } else {
+                    return 0;
+                }
+            case "ataque":
+                if (this.stats.getAttackdamage() > c.getStats().getAttackdamage()) {
+                    return 1;
+                } else if (this.stats.getAttackdamage() < c.getStats().getAttackdamage()) {
+                    return -1;
+                } else {
+                    return 0;
+                }
+            case "armor":
+                if (this.stats.getArmor() > c.getStats().getArmor()) {
+                    return 1;
+                } else if (this.stats.getAttackdamage() < c.getStats().getArmor()) {
+                    return -1;
+                } else {
+                    return 0;
+                }
+            default:
+                return 0;
+        }
+    }
 
     public int getKey() {
         return key;
@@ -84,4 +113,13 @@ public class Campeon {
     public void setStats(StatsCampeon stats) {
         this.stats = stats;
     }
+
+    public String getCompare() {
+        return compare;
+    }
+
+    public void setCompare(String compare) {
+        this.compare = compare;
+    }
+
 }
